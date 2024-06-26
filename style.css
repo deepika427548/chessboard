@@ -1,6 +1,11 @@
 #board{
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   
 }
 
 .cell_row{
@@ -8,7 +13,7 @@
 }
 
 .cell{
-    height: 30px;
-    width:30px;
+    height: 50px;
+    width:50px;
     border: 2px solid black;
 }
